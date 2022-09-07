@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    background-color:#fdf0d5 ;
+    
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header{
+    background-color:#fdf0d5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+li, a {
+        font-weight: bold;
+        font-size:20px ;
+        color: black;
+        text-decoration: none;
+        font-family: 'PT Sans', sans-serif;
+    }
+.logo{
+        width: 250px; 
+        cursor: pointer;
+        justify-content: space-between;
+        
+}
+
+.navigation{
+list-style: none;
+}
+.navigation li{
+    display: inline-block;
+    padding:  29px;
+    margin: auto;
+}
+.navigation li a {
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    font-size: 22px;
+    align-items: center;    
+}
+.navigation li a:hover{
+    color: rgb(70, 70, 184);
+    }
+.text{
+    font-size: 56px;
+    margin-left: 79px;
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 4px;
+
+}
+.text p{
+    font-size: 35px;
+    font-family: 'PT Sans', sans-serif;
+    color: #123741;
+
+}
+span{
+    color: #0088a9;
+}
+.home{
+display: flex;
+padding: 10% 50px;
+background-color: #fdf0d5;
+}
+
+.img{
+    width: 450px;
+    cursor: pointer;
+    display: flex;
+}
+.SERVICES{
+    background-color:#fdf0d5;
+    padding: 10% 50px;
+}
+.text_center{
+    text-align: center;
+    font-size: 55px;
+    padding-top: 15%;
+}
+
+.card{
+    width: 350px; 
+    height: 350px;
+    background-color: #c09e7c;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: center;
+
+}
+.BOX{
+display: flex;
+justify-content: space-between;
+
+}
+.card:hover{
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    transform: scale(1.4);
+}
+.card i{
+font-size: 4rem;
+text-align: center;
+color: #0088a9;
+margin: 2rem;
+}
+h5{
+    font-size: 30px;
+    font-style: italic;
+    font: bolder;
+}
+p{
+    font-weight:900;
+    font-size:17PX ;
+}
+.BUTTON{
+ background-color: #0088a9;
+text-decoration: none;
+font-weight: bold;
+padding: 0.91rem 1.87rem ;
+border-radius: 25px;
+align-items: center;
+margin: 2rem 3rem;
+font-family: 'Bebas Neue', cursive;
+}
+
+.BUTTON:hover{
+    background-color: transparent;
+border: 2px solid rgb(123, 123, 197) ;
+}
+
+.container_imges img {
+
+    width: 50%;
+    
+}
+
+.container_text{
+font-size: 2rem;
+margin: 1.5rem 0;
+position: relative;
+}
+
+.about{
+background-color: #d5bdaf;
+padding:1%;
+display: flex;
+justify-content:space-around ;
+}
+.about p{
+ color:black;
+ letter-spacing: px;
+ line-height: 3rem;
+ font-size: 30px;
+}
+.footer{
+    background-color: #c09e7c;
+    padding: 60px 0;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 1px;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px 20px;
+    margin-bottom: auto;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: red;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col h4 ul li:not(last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a:hover{
+    color: #bbbbbb;
+}
+.footer-col h4 ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none; 
+    color: #ffffff;
+    font-weight: 300;
+     color: #bbbbbb;
+     display: block;
+    
+
+}
+.field{
+    width: 100%;
+    display: grid;
+
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+.input{
+    height: 30px;
+}
+.button-{
+    height: 30px;
+    width: 130px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: 17px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    align-items: center;
+    cursor: pointer;
+
+}
+.bbtn{
+    background-color: #c09e7c;
+    color: rgb(218, 179, 179);
+    transition: background .6s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(57, 56, 61, 0.205);
+}
+.bbtn:hover{
+    background-color: #123741;
+    background-clip: padding-box;
+    color: #d5bdaf;
+}
+.bbtn::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background-color: #bbbbbb;
+    content: '';
+    z-index: -1;
+}
